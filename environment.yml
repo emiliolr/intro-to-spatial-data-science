@@ -1,0 +1,13 @@
+name: intro-spatial-ds
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - pip
+  - python=3.14
+  - r-essentials
+  - r-sf
+  - r-terra
+  - rioxarray
+
+prefix: "/Users/emiliolr/miniforge3/envs/intro-spatial-ds"
