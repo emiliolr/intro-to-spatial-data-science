@@ -16,12 +16,12 @@ aoh.plot()
 plt.show()
 
 # Read the example range polygon
-range_fp = 'data/range_example.geojson'
-range = gpd.read_file(range_fp)
+range_ex_fp = 'data/range_example.geojson'
+range_ex = gpd.read_file(range_ex_fp)
 
 #  the pandas-style printout
-print(range)
+print(range_ex)
 
 #  again, taking a look at the range polygon
-range.plot()
+range_ex.plot()
 plt.show()
